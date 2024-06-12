@@ -1,0 +1,87 @@
+/* dashboard.css */
+
+
+/* Style the table */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Style table header */
+.table th {
+    background-color: whitesmoke;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+/* dashboard.css */
+
+.Kepala {
+    text-align: center;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgb(67, 74, 90);
+}
+
+.Kepala h1 {
+    margin: 0; /* Menghapus margin bawaan */
+    font-size: 24px; /* Ukuran font */
+    font-weight: bold; /* Bold */
+    text-align: center; /* Posisi tengah */
+}
+.btn-logout {
+    background-color: white;
+    color: #fff; /* Warna teks tulisan */
+    border: none;
+}
+
+/* Jika Anda ingin mengubah warna teks menjadi biru */
+.btn-logout {
+    color: blue;
+}
+
+/* Style table body */
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid blue;
+}
+
+/* Style alternating row colors */
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style table actions */
+.table .btn {
+    padding: 6px 12px;
+    margin: 3px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* Style primary button */
+.btn-primary {
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
+
+/* Style warning button */
+.btn-warning {
+    background-color: #ffc107;
+    color: #333;
+    border: none;
+}
+
+/* Style danger button */
+.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+}

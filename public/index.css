@@ -1,0 +1,16 @@
+.Kepala {
+    text-align: center;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgb(67, 74, 90);
+}
+
+.Kepala h1 {
+    margin: 0; /* Menghapus margin bawaan */
+    font-size: 24px; /* Ukuran font */
+    font-weight: bold; /* Bold */
+    text-align: center; /* Posisi tengah */
+}

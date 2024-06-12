@@ -11,12 +11,12 @@
                 <input type="text" name="kode_barang" class="form-control" value="{{ $barang->kode_barang }}" required>
             </div>
             <div class="form-group">
-                <label for="nama_barang">Nama Barang</label>
-                <input type="text" name="nama_barang" class="form-control" value="{{ $barang->nama_barang }}" required>
+                <label for="nama_barang">Nama barang</label>
+                <input type="text" name="nama_barang" class="form-control" value="{{ $barang->nama_barang}}" required>
             </div>
             <div class="form-group">
                 <label for="harga">Harga</label>
-                <input type="text" name="harga" class="form-control" value="{{ $barang->harga }}" required>
+                <input type="text" name="harga" class="form-control" value="{{ $barang->harga}}" required>
             </div>
             <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
         </form>
